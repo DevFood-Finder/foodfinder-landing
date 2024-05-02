@@ -1,0 +1,44 @@
+.text-paragraph-product {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F271B;
+}
+@media (max-width: 768px) {
+    .text-paragraph-product {
+        position: static; 
+        width: 100%; 
+        min-width: auto; 
+    }
+}
+.text-md-8 col-md-8 {
+    position: relative; 
+}
+.background-product{
+    background-color: #EBEBD3;
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.responsive-div{
+    display: inline-block;
+}
+.responsive-height{
+    display: flex;
+    align-items: stretch;
+}
+.container-seccion{
+    width: 70%;
+    margin-bottom: 5%;
+}
+.margin-text-up{
+    margin-top: 3%;
+}
+.margin-text-down{
+    margin-bottom: 4%;
+}
