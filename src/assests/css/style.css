@@ -44,7 +44,7 @@ body {
     transition: background-color 0.3s ease; /* Animación de transición */
 }
 
-.section-background {
+.hero-section {
     background-image: url("../images/heroimage.png"); /* Reemplazar con la URL de tu imagen */
     background-size: cover; /* La imagen cubre todo el contenedor */
     background-position: center; /* La imagen se posiciona en el centro */
@@ -57,17 +57,17 @@ body {
     color: #EBEBD3; /* Color del texto */
 }
 
-.section-background h1 {
+.hero-section h1 {
     font-size: 56px; /* Tamaño del título */
     margin-bottom: 119px; /* Espacio debajo del título */
 }
 
-.section-background p {
+.hero-section p {
     font-size: 32px; /* Tamaño del párrafo */
     margin-bottom: 144px; /* Espacio debajo del párrafo */
 }
 
-.section-background button {
+.hero-section button {
     background-color: #FB8F24; /* Color de fondo del botón */
     color: #1F271B; /* Color del texto del botón */
     font-size: 32px;
@@ -78,7 +78,7 @@ body {
     transition: background-color 0.3s ease; /* Animación de transición */
 }
 
-.section-background button:hover {
+.hero-section button:hover {
     background-color: #3C0000; /* Color de fondo al pasar el cursor */
     color: #EBEBD3;
 }
