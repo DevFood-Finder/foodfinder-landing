@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.querySelector('.arrow-left').addEventListener('click', scrollToLeft);
     document.querySelector('.arrow-right').addEventListener('click', scrollToRight);
-    
+
 });
 
 
@@ -32,10 +32,10 @@ window.addEventListener('scroll', function() {
     var windowHeight = window.innerHeight;
     var bodyHeight = document.body.offsetHeight;
     var footerOffset = footer.offsetTop;
-  
+
     if (windowHeight + window.pageYOffset >= bodyHeight) {
-      footer.style.display = 'block';
+        footer.style.display = 'block';
     } else {
-      footer.style.display = 'none';
+        footer.style.display = 'none';
     }
-  });
+});
