@@ -1,0 +1,181 @@
+body {
+    background-color: #EBEBD3;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Añadido un tipo de fuente genérico */
+  }
+  
+  .navbar {
+    background-color: #EBEBD3;
+    padding: 10px;
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px; /* Añadido margen inferior */
+  }
+  
+  .navbar h1{
+    font-size: 20px;
+    margin: 10rem;
+  }
+  
+  .navbar h1, .navbar h2 {
+    color: black;
+    margin: 0; /* Añadido para quitar margen predeterminado */
+  }
+  
+  .footer {
+    background-color: #EBEBD3;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .carrusel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Cambiado a min-height para asegurar que sea al menos del tamaño de la pantalla */
+    background-image: url('../images/fondorestaurante.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .carrusel {
+    display: flex;
+    overflow:hidden; /* Cambiado a auto para que aparezcan barras de desplazamiento si es necesario */
+    padding: 0 5%;
+  }
+  
+  .elemento {
+    flex: 1 0 auto;
+    margin: 0 2%; /* Espacio entre elementos */
+    background-color: #EBEBD3;
+    width: 900px; /* Ancho de cada elemento relativo al viewport width */
+    height: 600px; /* Altura de cada elemento relativo al viewport height */
+    border-radius: 20px; /* Bordes curvos */
+  
+    color: #333; /* Color del texto */
+  
+    padding: 20px; /* Espaciado interno */
+    max-width: 800px; /* Ancho máximo para mantener la legibilidad del texto */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra para dar un efecto elevado */
+  
+  }
+  
+  .elemento h2 {
+    font-size: 60px; /* Tamaño del texto del título */
+    text-align: center;
+  }
+  
+  .elemento p {
+    font-size: 35px; /* Tamaño del texto del párrafo */
+    text-align: justify;
+  }
+  
+  .elemento img {
+    float: right;
+    margin-left: 10px; /* Ajusta el margen izquierdo para separar la imagen del texto */
+    width: 20rem;
+  }
+  
+  .submit-button {
+    width: 100%;
+    max-width: 200px;
+    padding: 1rem;
+    margin: 0 0; /* Ajuste de separación con el container */
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box; /* Para incluir el padding en el ancho total */
+  }
+  
+  .submit-button {
+    background-color: #3C0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1F271B;
+  }
+  
+  @media (max-width: 480px) {
+    .elemento h2,
+    .elemento p {
+      padding: 0.8rem;
+    }
+  }
+  
+  
+  /* Hacer que sea responsive */
+  
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    transition: background-color 0.3s;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .arrow-left {
+    left: 10px;
+  }
+  
+  .arrow-right {
+    right: 10px;
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+  .box2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .box2 a {
+    font-size: 2rem;
+    padding: 0 10px; /* Ajuste de espaciado */
+    color: black; /* Cambiado a negro para mejor contraste */
+  }
+  
+  .box2 a:hover {
+    color: #333; /* Cambiado a un tono más oscuro al hacer hover */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar h1 {
+      font-size: 16px;
+      margin: 5rem;
+    }
+    .elemento h2 {
+      font-size: 40px;
+    }
+    .elemento p {
+      font-size: 25px;
+    }
+    .submit-button {
+      padding: 0.8rem;
+      font-size: 0.8rem;
+    }
+  }
