@@ -5,7 +5,7 @@ body {
 }
 
 /* Contenedor de la barra de herramientas */
-.navbar {
+.navbar-1 {
     background-color: #1F271B; /* Color de fondo */
     color: #EBEBD3; /* Color del texto */
     padding: 10px 20px;
